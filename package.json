@@ -1,0 +1,20 @@
+{
+  "name": "marcreichel.github.io",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/app.css -o ./dist/app.css --watch",
+    "build": "npx tailwindcss -i ./src/app.css -o ./dist/app.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcreichel/marcreichel.github.io.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcreichel/marcreichel.github.io/issues"
+  },
+  "homepage": "https://github.com/marcreichel/marcreichel.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.8"
+  }
+}
